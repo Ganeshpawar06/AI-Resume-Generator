@@ -1,0 +1,10 @@
+import streamlit as st
+from PIL import Image
+
+logo = Image.open("logo.png")
+st.sidebar.image(logo,width=80)
+
+st.sidebar.markdown("**Resume Genie**")
+
+st.title("Hello World!!")
+st.write("Welcome to my first Streamlit App")
